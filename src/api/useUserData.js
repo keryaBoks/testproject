@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 export function useUserData(username, setIsNotFoundUser) {
-  const token = "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";
+  const token = "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";
 
   return useQuery({
     queryKey: ["userData", username],
